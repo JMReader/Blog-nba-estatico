@@ -254,27 +254,22 @@ color: #9dd3f9;
     object-fit: cover;
 }
 .slider{
-    width: 100vw;
     display: flex;
-    position: relative;
     height: 50vh;
     list-style: none;
+    margin: 8px;
+    flex-direction: column;
+    align-items: center;
 }
 .slider li{
+    overflow: hidden;
     position: absolute;
-   
     bottom: 100px;
     opacity: 0;
     width: inherit;
     height: inherit;
     transition: opacity .5s;
     
-}
-ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
-}
-ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
 .controlador li{
@@ -286,10 +281,15 @@ ul.slider li:target {
     border-radius: 4px;
 }
 .controlador{
-    margin-left: 100px;
-    margin-top: 40px;
+ 
     display: flex;
-    justify-content:baseline;
+    justify-content:center;
+}
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
 
