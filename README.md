@@ -5,5 +5,5 @@ Pagina estatica aplicando estilos en cascada a un blog sobre la nba en argentina
 una pagina de ayuda que contiene informacion sobre el sitio
 ![image](https://user-images.githubusercontent.com/80925718/186692719-fb97500d-31dc-45d1-9309-a92f9b2c14a9.png)
 y una pagina con mi perfil 
-![image](https://user-images.githubusercontent.com/80925718/186692847-285f740d-fc5a-4b5d-a49a-d51ff1c5c07b.png)
+![image](https://user-images.githubusercontent.com/80925718/211068295-79256fcf-136e-463e-a559-60c734e6e0c7.png)
 
