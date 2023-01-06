@@ -150,13 +150,16 @@ details ul{
     flex-direction: column;
     width: 100vw;
     align-items: center;
-    background-color: rgba(124, 187, 242, 0.783);
+    background-color: rgba(124, 187, 242, 0.45);
     padding: 12px;
 }
 .main__form div{
+    width: 30%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
+
 .main__form div input, .main__form div select{
     margin: 8px 16px;
     margin-top: 0;
@@ -292,5 +295,25 @@ ul.slider li:target {
     opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
+#boton{
+    background-color: #003a64;
+    color: #8ed7ff;
+    padding: 3.5px;
+    border-radius: 6px;
+   justify-content: center;
 
-
+}
+input{
+    background-color: #9dd3f9;
+}
+label{
+    font-weight: bold;
+}
+select{
+    background-color: #9dd3f9;
+}
+#boton:hover{
+    transition: .6s;
+    background-color:  #8ed7ff;
+    color: #003a64;
+}
